@@ -1,5 +1,5 @@
 # Summary : We're trying including the current item in the bag by "if" black. 
-# Take user input for weights and profits
+# Take user input for weights and profits. Then sort the weights and based on sorted weight, the profits would sort too.
 
 def knapsack(capacity, profits_of, weights_of):
     total_items = len(weights_of)
@@ -41,3 +41,4 @@ max(option1, option2)
            the current item is excluded.
 
 """
+
