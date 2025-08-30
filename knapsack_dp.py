@@ -1,4 +1,5 @@
-# Summary : We're trying including the current item in the bag by "if" black.
+# Summary : We're trying including the current item in the bag by "if" black. 
+# Take user input for weights and profits
 
 def knapsack(capacity, profits_of, weights_of):
     total_items = len(weights_of)
@@ -38,4 +39,5 @@ max(option1, option2)
     Option 1 : Choose the previous result if including the current item in the bag doesn't yield maximum profit.
     Option 2 : Include the current item by its profit + what the remaining space excluding the current item can yield MAX PROFIT in previous item where
            the current item is excluded.
+
 """
